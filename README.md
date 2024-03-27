@@ -1,29 +1,23 @@
 # Propósito del Repositorio
 
-Este repositorio contiene el código fuente y los recursos asociados con el proyecto de Ingeniería en Software II de la Universidad Adventista del Río de la Plata.
+Este repositorio contiene el contenido del Trabajo Nº1 de Ingenieria en Software II
 
 ## Objetivos del Proyecto
 
-El objetivo principal de este proyecto es desarrollar una aplicación web para la gestión de tareas y proyectos, con el fin de mejorar la productividad y la colaboración en equipo.
+El objetivo principal de este proyecto es desarrollar el manejo de las herammientas de Git y Github
 
-### Funcionalidades Principales
+### Estructura del Repositorio
 
-1. Registro de usuarios.
-2. Creación y asignación de tareas.
-3. Seguimiento del progreso del proyecto.
+1. **src**: Directorio que contiene el código fuente del programa.
+2. **docs**: Directorio para documentación adicional.
+3. **figures**: Directorio para imágenes y figuras relacionadas con el proyecto.
 
-## Guía de Instalación
+## Lista de Recursos Adicionales
 
-Para instalar y ejecutar la aplicación en tu entorno local, sigue estos pasos:
+1. **Documentación**: Enlace a la documentación completa del proyecto para obtener más detalles.
+2. **Página Web**: Visita nuestra página web oficial para obtener información adicional y noticias sobre el proyecto.
+3. **Foro de Soporte**: Únete a nuestra comunidad en el foro de soporte para obtener ayuda y discutir ideas.
 
-1. Clona este repositorio en tu máquina local.
-2. Instala las dependencias utilizando `npm install`.
-3. Inicia el servidor de desarrollo con `npm start`.
-
-## Contribuciones
-
-¡Las contribuciones son bienvenidas! Si quieres mejorar esta aplicación, no dudes en enviar un pull request.
-
-![Diagrama de Arquitectura](/images/arquitectura.png)
+![Ingenieria](/momo.png)
 
 Para más información, visita nuestra [página web](https://www.ejemplo.com).
