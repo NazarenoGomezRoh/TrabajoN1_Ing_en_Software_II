@@ -1,7 +1,7 @@
 #!/usr/bin/python
 #*-------------------------------------------------------------------------*
 #* factorial.py                                                            *
-#* calcula el factorial de un número                                       *
+#* calcula el factorial de un número o el factorial en un rango            *
 #* Dr.P.E.Colla (c) 2022                                                   *
 #* Creative commons                                                        *
 #*-------------------------------------------------------------------------*
@@ -19,13 +19,27 @@ def factorial(num):
             num -= 1
         return fact 
 
+def factorial_range(start, end):
+    for num in range(start, end + 1):
+        print("Factorial", num, "! es", factorial(num))
+
+def parse_range(range_str):
+    if "-" in range_str:
+        start, end = map(int, range_str.split("-"))
+        return start, end
+    else:
+        start = int(range_str.split("-")[0])
+        return start, 60
+
 if len(sys.argv) == 1:
     try:
-        num = int(input("Ingrese un número para calcular su factorial: "))
+        input_range = input("Ingrese un rango de números (ej. -10 o desde-10): ")
+        start, end = parse_range(input_range)
     except ValueError:
-        print("Debe ingresar un número entero válido.")
+        print("Debe ingresar un rango válido en el formato -hasta o desde-.")
         sys.exit()
 else:
-    num = int(sys.argv[1])
+    start, end = parse_range(sys.argv[1])
 
-print("Factorial", num, "! es", factorial(num))
+factorial_range(start, end)
+
