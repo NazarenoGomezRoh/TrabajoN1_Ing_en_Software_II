@@ -10,14 +10,15 @@ El objetivo principal de este proyecto es desarrollar el manejo de las herammien
 
 1. **src**: Directorio que contiene el código fuente del programa.
 2. **docs**: Directorio para documentación adicional.
-3. **figures**: Directorio para imágenes y figuras relacionadas con el proyecto.
+3. **bin**: Archivos binarios generados.
+3. **script**: Scripts útiles para el desarrollo o mantenimiento de los proyectos.
 
 ## Lista de Recursos Adicionales
 
-1. **Documentación**: Enlace a la documentación completa del proyecto para obtener más detalles.
-2. **Página Web**: Visita nuestra página web oficial para obtener información adicional y noticias sobre el proyecto.
-3. **Foro de Soporte**: Únete a nuestra comunidad en el foro de soporte para obtener ayuda y discutir ideas.
+1. Facilitar el trabajo colaborativo entre los estudiantes de la carrera.
+2. Almacenar y gestionar el código fuente de los proyectos.
+3. Mantener la documentación actualizada y accesible para todos los miembros del equipo.
 
 ![Ingenieria](/momo.png)
 
-Para más información, visita nuestra [página web](https://www.ejemplo.com).
+Para más información, la pagina de UADER [página web](https://uader.edu.ar/).
