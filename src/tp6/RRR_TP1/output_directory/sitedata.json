@@ -1,0 +1,11 @@
+{
+        "token1": {
+            "saldo": 1000,
+            "token": "C598-ECF9-F0F7-881A"
+        },
+        "token2": {
+            "saldo": 2000,
+            "token": "C598-ECF9-F0F7-881B"
+        }
+    }
+    
